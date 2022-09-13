@@ -2,176 +2,230 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>dz1</title>
+    <link href="/style.css" rel="stylesheet" />
+    <title>Задание_2</title>
   </head>
   <body>
-    <ol>
-      <li>
-        <a href="http://example.com" target="_blank"
-          >абсолютную гиперссылку на главную страницу сайта example.com</a
-        >
-      </li>
-      <li>
-        <a href="https://example.com" target="_blank"
-          >абсолютную на главную сайта example.com в протоколе https</a
-        >
-      </li>
-      <li>
-        <a href="ftp://tavalik.ru" target="_blank"
-          >ссылку на файл на сервере FTP без авторизации</a
-        >
-      </li>
-      <li>
-        <a
-          href="ftp://qoqo22:qwer1234@tavalik.ru/Temp/file2.txt"
-          target="_blank"
-          >ссылку на файл на сервере FTP с авторизацией;</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BA%D1%81%D1%82#Стили_и_типы_текста"
-          target="_blank"
-          >ссылку на фрагмент страницы некоторого сайта;</a
-        >
-      </li>
-      <li>
-        <a href="/index.html#some" target="_blank"
-          >ссылку на фрагмент текущей страницы</a
-        >
-      </li>
-      <li>
-        <a href="https://e.mail.ru/inbox/?back=1&afterReload=1" target="_blank"
-          >ссылку с двумя параметрами в URL</a
-        >
-      </li>
+    <img id="logo" src="https://logoza.ru/img/rock.png" />
+    <header>
+      <h1>Это сайт</h1>
+    </header>
+    <nav>
+      <a href="#">Эта страница</a> |
+      <a id="center_s" target="_blank" href="https://www.youtube.com/">Ютуб</a>
+      |
+      <a id="right_s" target="_blank" href="https://www.vk.com/">Вк</a>
+    </nav>
+    <div class="ssilki">
+      <ol>
+        <li>
+          <a href="http://example.com" target="_blank"
+            >абсолютную гиперссылку на главную страницу сайта example.com</a
+          >
+        </li>
+        <li>
+          <a href="https://example.com" target="_blank"
+            >абсолютную на главную сайта example.com в протоколе https</a
+          >
+        </li>
+        <li>
+          <a href="ftp://tavalik.ru" target="_blank"
+            >ссылку на файл на сервере FTP без авторизации</a
+          >
+        </li>
+        <li>
+          <a
+            href="ftp://qoqo22:qwer1234@tavalik.ru/Temp/file2.txt"
+            target="_blank"
+            >ссылку на файл на сервере FTP с авторизацией;</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BA%D1%81%D1%82#Стили_и_типы_текста"
+            target="_blank"
+            >ссылку на фрагмент страницы некоторого сайта;</a
+          >
+        </li>
+        <li>
+          <a href="/index.html#some" target="_blank"
+            >ссылку на фрагмент текущей страницы</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://e.mail.ru/inbox/?back=1&afterReload=1"
+            target="_blank"
+            >ссылку с двумя параметрами в URL</a
+          >
+        </li>
 
-      <li>
-        Список ссылок основной навигации сайта с подписями title
-        <ul>
-          <li>
-            <a
-              href="https://www.youtube.com/"
-              target="_blank"
-              title="Home Youtube"
-              >Home Youtube</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/feed/explore"
-              target="_blank"
-              title="Explore Youtube"
-              >Explore Youtube</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/feed/subscriptions"
-              target="_blank"
-              title="Subscriptions Youtube"
-              >Subscriptions Youtube</a
-            >
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a title="Можно тыкнуть и ничего">ссылку без href</a>
-      </li>
-      <li>
-        <a href="#">ссылку с пустым href</a>
-      </li>
-      <li>
-        <a
-          href="https://translate.google.com/?hl=ru"
-          rel="nofollow"
-          target="_blank"
-        >
-          ссылку, по которой запрещен переход поисковикам</a
-        >
-      </li>
-      <!--noindex-->
-      <li>
-        <a href="https://translate.google.com/?hl=ru" target="_blank">
-          запрещенную для индексации поисковиками
-        </a>
-      </li>
-      <!--/noindex-->
-      <li>
-        Lorem ipsum dolor
-        <a href="https://youtube.com" target="_blank">sit amet consectetur </a>
-        adipisicing elit. Minus eum accusamus ad ducimus veniam soluta
-        dignissimos placeat blanditiis tenetur maxime.
-      </li>
-      <li>
-        <br />
-        <a
-          ><img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Mona_Lisa.jpg/400px-Mona_Lisa.jpg"
-            alt="Здесь могла быть ваша картинка"
-            width="200"
-            height="250"
+        <li>
+          Список ссылок основной навигации сайта с подписями title
+          <ul>
+            <li>
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                title="Home Youtube"
+                >Home Youtube</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/feed/explore"
+                target="_blank"
+                title="Explore Youtube"
+                >Explore Youtube</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/feed/subscriptions"
+                target="_blank"
+                title="Subscriptions Youtube"
+                >Subscriptions Youtube</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a title="Можно тыкнуть и ничего">ссылку без href</a>
+        </li>
+        <li>
+          <a href="#">ссылку с пустым href</a>
+        </li>
+        <li>
+          <a
+            href="https://translate.google.com/?hl=ru"
+            rel="nofollow"
+            target="_blank"
+          >
+            ссылку, по которой запрещен переход поисковикам</a
+          >
+        </li>
+        <!--noindex-->
+        <li>
+          <noindex>
+            <a href="https://translate.google.com/?hl=ru" target="_blank">
+              запрещенную для индексации поисковиками
+            </a>
+          </noindex>
+        </li>
+        <!--/noindex-->
+        <li>
+          Lorem ipsum dolor
+          <a href="https://youtube.com" target="_blank"
+            >sit amet consectetur
+          </a>
+          adipisicing elit. Minus eum accusamus ad ducimus veniam soluta
+          dignissimos placeat blanditiis tenetur maxime.
+        </li>
+        <li>
+          <br />
+          <a
+            ><img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Mona_Lisa.jpg/400px-Mona_Lisa.jpg"
+              alt="Здесь могла быть ваша картинка"
+              width="200"
+              height="250"
+            />
+          </a>
+        </li>
+        <li>
+          <br />
+          <img
+            src="https://esadigital.ru/upload/iblock/b1f/b1f045401524fccbd857abb3ad438efa.jpg"
+            alt="Здесь могла быть ваша картинка:P"
+            width="300"
+            height="300"
+            usemap="#slozhna"
           />
-        </a>
-      </li>
-      <li>
-        <br />
-        <img
-          src="https://esadigital.ru/upload/iblock/b1f/b1f045401524fccbd857abb3ad438efa.jpg"
-          alt="Здесь могла быть ваша картинка:P"
-          width="300"
-          height="300"
-          usemap="#slozhna"
-        />
-        <map name="slozhna">
-          <area
-            shape="rect"
-            coords="15,75,145,199"
-            href="https://ru.wikipedia.org/wiki/RGB"
-            alt="инфа о RGB"
-          />
-          <area
-            shape="circle"
-            coords="216,141,67"
-            href="https://ru.wikipedia.org/wiki/CMYK"
-            alt="инфа о CMYK"
-          />
-        </map>
-      </li>
-      <li>
-        <a href="news">
-          относительную на страницу в текущем каталоге (Например: для
-          https://qqq.com/somehere/news)</a
-        >
-      </li>
-      <li>
-        <a href="about/12345">
-          относительную на страницу в каталоге about (Например: для
-          https://qqq.com/somehere/about/12345)</a
-        >
-      </li>
-      <li>
-        <a href="../about">
-          относительную на страницу в каталоге уровнем выше текущего (Например:
-          для https://qqq.com/somehere/about/12345</a
-        >
-      </li>
-      <li>
-        <a href="../../123">
-          относительную на страницу в каталоге двумя уровнями выше; (Например:
-          для https://qqq.com/somehere/heretext/123</a
-        >
-      </li>
-      <li>
-        <a href="/"> сокращенную на главную</a>
-      </li>
-      <li>
-        <a href="somehere/news">
-          сокращенную ссылку на внутреннюю (Например: для
-          https://qqq.com/somehere/news)</a
-        >
-      </li>
-    </ol>
+          <map name="slozhna">
+            <area
+              shape="rect"
+              coords="15,75,145,199"
+              href="https://ru.wikipedia.org/wiki/RGB"
+              alt="инфа о RGB"
+            />
+            <area
+              shape="circle"
+              coords="216,141,67"
+              href="https://ru.wikipedia.org/wiki/CMYK"
+              alt="инфа о CMYK"
+            />
+          </map>
+        </li>
+        <li>
+          <a href="news">
+            относительную на страницу в текущем каталоге (Например: для
+            https://qqq.com/somehere/news)</a
+          >
+        </li>
+        <li>
+          <a href="about/12345">
+            относительную на страницу в каталоге about (Например: для
+            https://qqq.com/somehere/about/12345)</a
+          >
+        </li>
+        <li>
+          <a href="../about">
+            относительную на страницу в каталоге уровнем выше текущего
+            (Например: для https://qqq.com/somehere/about/12345</a
+          >
+        </li>
+        <li>
+          <a href="../../123">
+            относительную на страницу в каталоге двумя уровнями выше; (Например:
+            для https://qqq.com/somehere/heretext/123</a
+          >
+        </li>
+        <li>
+          <a href="/"> сокращенную на главную</a>
+        </li>
+        <li>
+          <a href="somehere/news">
+            сокращенную ссылку на внутреннюю (Например: для
+            https://qqq.com/somehere/news)</a
+          >
+        </li>
+      </ol>
+    </div>
+    <div class="table1">
+      <table>
+        <tbody>
+          <tr>
+            <th>Колонка 1</th>
+            <th>Колонка 2</th>
+            <th>Колонка 3</th>
+            <th>Колонка 4</th>
+            <th>Колонка 5</th>
+          </tr>
+          <tr>
+            <td colspan="5">5 ячеек вместе</td>
+          </tr>
+          <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+          </tr>
+          <tr>
+            <td colspan="3">3 ячейки вместе</td>
+            <th>11</th>
+            <th>12</th>
+          </tr>
+          <tr>
+            <th>10</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
     <form action="/" method="POST">
       <label>
@@ -206,22 +260,22 @@
       <label>
         Количество конечностей:
         <br />
-        <input type="radio" name="radio-group-1" value="Значение1" checked />
+        <input type="radio" name="radio-group-2" value="Значение1" checked />
         1
       </label>
       <br />
       <label>
-        <input type="radio" name="radio-group-1" value="Значение1" />
+        <input type="radio" name="radio-group-2" value="Значение1" />
         2
       </label>
       <br />
       <label>
-        <input type="radio" name="radio-group-1" value="Значение1" />
+        <input type="radio" name="radio-group-2" value="Значение1" />
         3
       </label>
       <br />
       <label>
-        <input type="radio" name="radio-group-1" value="Значение1" />
+        <input type="radio" name="radio-group-2" value="Значение1" />
         4
       </label>
       <br />
@@ -246,5 +300,6 @@
       <br />
       <input type="submit" value="Отправить" />
     </form>
+    <footer>(с) Сезень Егор 2022</footer>
   </body>
 </html>
