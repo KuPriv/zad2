@@ -1,6 +1,8 @@
 body {
   /* background: url("/160042.png"); */
-  background-color: bisque;
+  background-color: peachpuff;
+  border-width: 15px;
+  color: white;
 }
 
 .ssilki {
@@ -8,8 +10,13 @@ body {
   font-style: italic;
   max-width: 960px;
   margin: 0 auto;
-  background-color: grey;
+  background-color: lightgray;
   border-radius: 8px;
+  border: 5px solid aqua;
+}
+
+a {
+  color: mediumblue;
 }
 
 a:hover {
@@ -24,18 +31,19 @@ body {
 .table1 {
   max-width: 960px;
   margin: 0 auto;
-  background-color: grey;
+  background-color: lightgray;
   border-radius: 8px;
   margin-bottom: 15px;
   text-align: center;
+  border: 5px solid aqua;
 }
 
 table tr:nth-child(odd) {
-  color: mediumspringgreen;
+  color: orchid;
 }
 
 table tr:nth-child(even) {
-  color: cyan;
+  color: rebeccapurple;
 }
 
 form {
@@ -44,8 +52,9 @@ form {
   padding-bottom: 5px;
   max-width: 960px;
   margin: 0 auto;
-  background-color: grey;
+  background-color: lightgray;
   border-radius: 8px;
+  border: 5px solid aqua;
 }
 
 header {
@@ -59,6 +68,7 @@ header {
   border-radius: 8px;
   height: 100px;
   padding-top: 10px;
+  border: 5px solid aqua;
 }
 
 footer {
@@ -71,6 +81,7 @@ footer {
   height: 50px;
   padding-top: 25px;
   font-size: 20px;
+  border: 5px solid aqua;
 }
 
 #logo {
@@ -83,7 +94,7 @@ footer {
 
 nav {
   margin: 0 auto;
-  background-color: grey;
+  background-color: lightgray;
   margin-top: 15px;
   text-align: center;
   font-size: 25px;
@@ -91,4 +102,6 @@ nav {
   height: 45px;
   border-radius: 8px;
   width: 320px;
+  border: 1rem solid;
+  border: 5px solid aqua;
 }
