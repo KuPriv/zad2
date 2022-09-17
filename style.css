@@ -1,6 +1,6 @@
 body {
   /* background: url("/160042.png"); */
-  background-color: purple;
+  background-color: bisque;
 }
 
 .ssilki {
@@ -53,7 +53,7 @@ header {
   text-align: center;
   font-style: italic;
   font-size: 20px;
-  color: orange;
+  color: lightskyblue;
   margin: 0;
   background-color: darkcyan;
   border-radius: 8px;
@@ -82,11 +82,13 @@ footer {
 }
 
 nav {
+  margin: 0 auto;
   background-color: grey;
   margin-top: 15px;
   text-align: center;
   font-size: 25px;
   text-decoration: none;
-  height: 50px;
+  height: 45px;
   border-radius: 8px;
+  width: 320px;
 }
