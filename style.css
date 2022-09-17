@@ -39,11 +39,13 @@ body {
 }
 
 table tr:nth-child(odd) {
-  color: orchid;
+  background-color: orchid;
+  color: darkmagenta;
 }
 
 table tr:nth-child(even) {
-  color: rebeccapurple;
+  background-color: rebeccapurple;
+  color: lightpink;
 }
 
 form {
