@@ -1,3 +1,8 @@
+body {
+  /* background: url("/160042.png"); */
+  background-color: purple;
+}
+
 .ssilki {
   font-size: 17px;
   font-style: italic;
@@ -25,6 +30,14 @@ body {
   text-align: center;
 }
 
+table tr:nth-child(odd) {
+  color: mediumspringgreen;
+}
+
+table tr:nth-child(even) {
+  color: cyan;
+}
+
 form {
   padding-left: 10px;
   padding-top: 5px;
@@ -39,8 +52,10 @@ header {
   position: relative;
   text-align: center;
   font-style: italic;
+  font-size: 20px;
+  color: orange;
   margin: 0;
-  background-color: blue;
+  background-color: darkcyan;
   border-radius: 8px;
   height: 100px;
   padding-top: 10px;
@@ -50,7 +65,7 @@ footer {
   text-align: center;
   font-style: italic;
   margin: 0;
-  background-color: blue;
+  background-color: darkcyan;
   border-radius: 8px;
   margin-top: 15px;
   height: 50px;
