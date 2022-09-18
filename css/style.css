@@ -1,0 +1,109 @@
+body {
+  /* background: url("/160042.png"); */
+  background-color: peachpuff;
+  border-width: 15px;
+  color: white;
+}
+
+.ssilki {
+  font-size: 17px;
+  font-style: italic;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: lightgray;
+  border-radius: 8px;
+  border: 5px solid aqua;
+}
+
+a {
+  color: mediumblue;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.table1 {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: lightgray;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: 5px solid aqua;
+}
+
+table tr:nth-child(odd) {
+  background-color: orchid;
+  color: darkmagenta;
+}
+
+table tr:nth-child(even) {
+  background-color: rebeccapurple;
+  color: lightpink;
+}
+
+form {
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: lightgray;
+  border-radius: 8px;
+  border: 5px solid aqua;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  color: lightskyblue;
+  margin: 0;
+  background-color: darkcyan;
+  border-radius: 8px;
+  height: 100px;
+  padding-top: 10px;
+  border: 5px solid aqua;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+  background-color: darkcyan;
+  border-radius: 8px;
+  margin-top: 15px;
+  height: 50px;
+  padding-top: 25px;
+  font-size: 20px;
+  border: 5px solid aqua;
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+  float: left;
+  position: absolute;
+  left: 360px;
+}
+
+nav {
+  margin: 0 auto;
+  background-color: lightgray;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  height: 45px;
+  border-radius: 8px;
+  width: 320px;
+  border: 1rem solid;
+  border: 5px solid aqua;
+}
