@@ -98,7 +98,8 @@ footer {
   height: 80px;
   float: left;
   position: absolute;
-  left: 21%;
+  left: 18%;
+  /* 21% */
 }
 
 nav {
