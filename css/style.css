@@ -1,8 +1,14 @@
 body {
   /* background: url("/160042.png"); */
   background-color: peachpuff;
-  border-width: 15px;
   color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: coral;
+  margin-right: 840px;
 }
 
 .ssilki {
@@ -11,11 +17,12 @@ body {
   max-width: 960px;
   margin: 0 auto;
   background-color: lightgray;
-  border-radius: 8px;
-  border: 5px solid aqua;
+  border-radius: 16px;
+  border: 5px dashed tomato;
 }
 
 a {
+  text-decoration: none;
   color: mediumblue;
 }
 
@@ -28,14 +35,14 @@ body {
   margin: 0 auto;
 }
 
-.table1 {
-  max-width: 960px;
+.tabl {
+  width: 960px;
   margin: 0 auto;
-  background-color: lightgray;
-  border-radius: 8px;
+  margin-top: 10px;
   margin-bottom: 15px;
   text-align: center;
-  border: 5px solid aqua;
+  margin: 0 auto;
+  border: 5px dashed tomato;
 }
 
 table tr:nth-child(odd) {
@@ -55,8 +62,8 @@ form {
   max-width: 960px;
   margin: 0 auto;
   background-color: lightgray;
-  border-radius: 8px;
-  border: 5px solid aqua;
+  border-radius: 16px;
+  border: 5px dashed tomato;
 }
 
 header {
@@ -64,26 +71,26 @@ header {
   text-align: center;
   font-style: italic;
   font-size: 20px;
-  color: lightskyblue;
+  color: tomato;
   margin: 0;
-  background-color: darkcyan;
-  border-radius: 8px;
+  background-color: lightgray;
+  border-radius: 16px;
   height: 100px;
   padding-top: 10px;
-  border: 5px solid aqua;
+  border: 5px dashed tomato;
 }
 
 footer {
   text-align: center;
   font-style: italic;
   margin: 0;
-  background-color: darkcyan;
-  border-radius: 8px;
+  background-color: lightgray;
+  border-radius: 16px;
   margin-top: 15px;
   height: 50px;
   padding-top: 25px;
   font-size: 20px;
-  border: 5px solid aqua;
+  border: 5px dashed tomato;
 }
 
 #logo {
@@ -91,7 +98,7 @@ footer {
   height: 80px;
   float: left;
   position: absolute;
-  left: 360px;
+  left: 21%;
 }
 
 nav {
@@ -102,8 +109,9 @@ nav {
   font-size: 25px;
   text-decoration: none;
   height: 45px;
-  border-radius: 8px;
+  border-radius: 16px;
+  margin-bottom: 10px;
   width: 320px;
   border: 1rem solid;
-  border: 5px solid aqua;
+  border: 5px dashed tomato;
 }
