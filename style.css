@@ -1,12 +1,17 @@
 body {
-  /* background: url("/160042.png"); */
+  /* background: url("/fon.png"); */
   background-color: peachpuff;
   color: white;
 }
 
 h2 {
+  /* background-color: lightgray; */
   text-align: center;
   font-size: 30px;
+  width: 200px;
+  /* border-radius: 16px; */
+  /* border: 3px solid tomato; */
+  margin-left: 320px;
   color: coral;
   margin-right: 840px;
 }
@@ -14,11 +19,11 @@ h2 {
 .ssilki {
   font-size: 17px;
   font-style: italic;
-  max-width: 960px;
+  width: 960px;
   margin: 0 auto;
   background-color: lightgray;
   border-radius: 16px;
-  border: 5px dashed tomato;
+  border: 5px solid tomato;
 }
 
 a {
@@ -35,14 +40,13 @@ body {
   margin: 0 auto;
 }
 
-.tabl {
+table {
   width: 960px;
-  margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 15px;
   text-align: center;
   margin: 0 auto;
-  border: 5px dashed tomato;
+  border: 5px solid tomato;
 }
 
 table tr:nth-child(odd) {
@@ -63,7 +67,7 @@ form {
   margin: 0 auto;
   background-color: lightgray;
   border-radius: 16px;
-  border: 5px dashed tomato;
+  border: 5px solid tomato;
 }
 
 header {
@@ -77,7 +81,7 @@ header {
   border-radius: 16px;
   height: 100px;
   padding-top: 10px;
-  border: 5px dashed tomato;
+  border: 5px solid tomato;
 }
 
 footer {
@@ -90,7 +94,7 @@ footer {
   height: 50px;
   padding-top: 25px;
   font-size: 20px;
-  border: 5px dashed tomato;
+  border: 5px solid tomato;
 }
 
 #logo {
@@ -98,7 +102,7 @@ footer {
   height: 80px;
   float: left;
   position: absolute;
-  left: 18%;
+  left: 21%;
 }
 
 nav {
