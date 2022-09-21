@@ -125,6 +125,8 @@ footer {
   float: left;
   position: absolute;
   left: 21%;
+  border-radius: 8px;
+  border: 2px solid aqua;
 }
 
 nav {
