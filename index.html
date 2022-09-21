@@ -11,7 +11,7 @@
       <a href="/"
         ><img alt="..." id="logo" src="https://logoza.ru/img/rock.png" />
       </a>
-      <h1>Это сайт</h1>
+      <h1>Сайт для вебы2</h1>
     </header>
     <nav>
       <a href="#">Эта страница</a>
@@ -231,13 +231,18 @@
       <label>
         Имя:
         <br />
-        <input name="name" placeholder="Ваше имя" />
+        <input required name="name" placeholder="Ваше имя" />
       </label>
       <br />
       <label>
         e-mail:
         <br />
-        <input name="mail" type="email" placeholder="Введите вашу почту" />
+        <input
+          required
+          name="mail"
+          type="email"
+          placeholder="Введите вашу почту"
+        />
       </label>
       <br />
       <label>
@@ -280,7 +285,7 @@
       </label>
       <br />
       <label>
-        <select name="power" multiple="multiple">
+        <select id="skills" name="power" multiple="multiple">
           <option value="Значение1" selected>Бессмертие</option>
           <option value="Значение2">Прохождение сквозь стены</option>
           <option value="Значение3">Левитация</option>
@@ -290,7 +295,7 @@
       <label id="some">
         Биография:
         <br />
-        <textarea name="bio" placeholder="Text here"></textarea>
+        <textarea maxlength="250" name="bio" placeholder="Text here"></textarea>
       </label>
       <br />
       <label>
