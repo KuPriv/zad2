@@ -1,6 +1,7 @@
 body {
   /* background: url("/fon.png"); */
-  background-color: peachpuff;
+  /* background-color: peachpuff; */
+  background: linear-gradient(90deg, #f0d9ca, #8fcaed, #f59cf8);
   color: white;
 }
 
@@ -11,7 +12,7 @@ h2 {
   width: 200px;
   /* border-radius: 16px; */
   /* border: 3px solid tomato; */
-  margin-left: 240px;
+  margin-left: 320px;
   color: coral;
   margin-right: 840px;
 }
@@ -80,7 +81,7 @@ header {
   color: tomato;
   margin: 0;
   /* background-color: lightgray; */
-  background: linear-gradient(45deg, #fadeb6, #ff95ff, #ffcbb3);
+  background: linear-gradient(45deg, #f00232, #216fd4, #3ef35f);
   border-radius: 16px;
   height: 100px;
   padding-top: 10px;
@@ -92,7 +93,7 @@ footer {
   font-style: italic;
   margin: 0;
   /* background-color: lightgray; */
-  background: linear-gradient(45deg, #fadeb6, #ff95ff, #ffcbb3);
+  background: linear-gradient(45deg, #f00232, #216fd4, #3ef35f);
   border-radius: 16px;
   margin-top: 15px;
   height: 50px;
