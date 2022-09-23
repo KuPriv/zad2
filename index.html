@@ -8,34 +8,39 @@
   </head>
   <body>
     <header>
-      <a href="/"><img alt="..." id="logo" src="/zad2/logo.png" /> </a>
+      <a href="/" tabindex="1"><img alt="..." id="logo" src="/zad2/logo.png" /> </a>
       <h1>Сайт для вебы2</h1>
     </header>
     <nav>
-      <a href="#">Эта страница</a>
-      <a target="_blank" href="https://github.com/KuPriv/">GitHub</a>
-      <a target="_blank" href="https://vk.com/ionlylosemymind">Вконтакте</a>
+      <a href="#" tabindex="2">Эта страница</a>
+      <a target="_blank" tabindex="3" href="https://github.com/KuPriv/"
+        >GitHub</a
+      >
+      <a target="_blank" tabindex="4" href="https://vk.com/ionlylosemymind"
+        >Вконтакте</a
+      >
     </nav>
-    <h2>Ссылки:</h2>
+    <h2 class="about_sil" tabindex="5">Ссылки(листать колесиком мыши):</h2>
     <div class="ssilki">
       <ol>
         <li>
-          <a href="http://example.com" target="_blank"
+          <a tabindex="-1" href="http://example.com" target="_blank"
             >абсолютную гиперссылку на главную страницу сайта example.com</a
           >
         </li>
         <li>
-          <a href="https://example.com" target="_blank"
+          <a tabindex="-1" href="https://example.com" target="_blank"
             >абсолютную на главную сайта example.com в протоколе https</a
           >
         </li>
         <li>
-          <a href="ftp://tavalik.ru" target="_blank"
+          <a tabindex="-1" href="ftp://tavalik.ru" target="_blank"
             >ссылку на файл на сервере FTP без авторизации</a
           >
         </li>
         <li>
           <a
+            tabindex="-1"
             href="ftp://qoqo22:qwer1234@tavalik.ru/Temp/file2.txt"
             target="_blank"
             >ссылку на файл на сервере FTP с авторизацией;</a
@@ -43,18 +48,20 @@
         </li>
         <li>
           <a
+            tabindex="-1"
             href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BA%D1%81%D1%82#Стили_и_типы_текста"
             target="_blank"
             >ссылку на фрагмент страницы некоторого сайта;</a
           >
         </li>
         <li>
-          <a href="/index.html#some" target="_blank"
+          <a tabindex="-1" href="/index.html#some" target="_blank"
             >ссылку на фрагмент текущей страницы</a
           >
         </li>
         <li>
           <a
+            tabindex="-1"
             href="https://e.mail.ru/inbox/?back=1&afterReload=1"
             target="_blank"
             >ссылку с двумя параметрами в URL</a
@@ -66,6 +73,7 @@
           <ul>
             <li>
               <a
+                tabindex="-1"
                 href="https://www.youtube.com/"
                 target="_blank"
                 title="Home Youtube"
@@ -74,6 +82,7 @@
             </li>
             <li>
               <a
+                tabindex="-1"
                 href="https://www.youtube.com/feed/explore"
                 target="_blank"
                 title="Explore Youtube"
@@ -82,6 +91,7 @@
             </li>
             <li>
               <a
+                tabindex="-1"
                 href="https://www.youtube.com/feed/subscriptions"
                 target="_blank"
                 title="Subscriptions Youtube"
@@ -91,13 +101,14 @@
           </ul>
         </li>
         <li>
-          <a title="Можно тыкнуть и ничего">ссылку без href</a>
+          <a tabindex="-1" title="Можно тыкнуть и ничего">ссылку без href</a>
         </li>
         <li>
-          <a href="#">ссылку с пустым href</a>
+          <a tabindex="-1" href="#">ссылку с пустым href</a>
         </li>
         <li>
           <a
+            tabindex="-1"
             href="https://translate.google.com/?hl=ru"
             rel="nofollow"
             target="_blank"
@@ -107,14 +118,18 @@
         </li>
         <!--noindex-->
         <li>
-          <a href="https://translate.google.com/?hl=ru" target="_blank">
+          <a
+            tabindex="-1"
+            href="https://translate.google.com/?hl=ru"
+            target="_blank"
+          >
             запрещенную для индексации поисковиками
           </a>
         </li>
         <!--/noindex-->
         <li>
           Lorem ipsum dolor
-          <a href="https://youtube.com" target="_blank"
+          <a tabindex="-1" href="https://youtube.com" target="_blank"
             >sit amet consectetur
           </a>
           adipisicing elit. Minus eum accusamus ad ducimus veniam soluta
@@ -122,7 +137,7 @@
         </li>
         <li>
           <br />
-          <a
+          <a tabindex="-1"
             ><img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Mona_Lisa.jpg/400px-Mona_Lisa.jpg"
               alt="Здесь могла быть ваша картинка"
@@ -142,12 +157,14 @@
           />
           <map name="slozhna">
             <area
+              tabindex="-1"
               shape="rect"
               coords="15,75,145,199"
               href="https://ru.wikipedia.org/wiki/RGB"
               alt="инфа о RGB"
             />
             <area
+              tabindex="-1"
               shape="circle"
               coords="216,141,67"
               href="https://ru.wikipedia.org/wiki/CMYK"
@@ -156,41 +173,41 @@
           </map>
         </li>
         <li>
-          <a href="news">
+          <a tabindex="-1" href="news">
             относительную на страницу в текущем каталоге (Например: для
             https://qqq.com/somehere/news)</a
           >
         </li>
         <li>
-          <a href="about/12345">
+          <a tabindex="-1" href="about/12345">
             относительную на страницу в каталоге about (Например: для
             https://qqq.com/somehere/about/12345)</a
           >
         </li>
         <li>
-          <a href="../about">
+          <a tabindex="-1" href="../about">
             относительную на страницу в каталоге уровнем выше текущего
             (Например: для https://qqq.com/somehere/about/12345</a
           >
         </li>
         <li>
-          <a href="../../123">
+          <a tabindex="-1" href="../../123">
             относительную на страницу в каталоге двумя уровнями выше; (Например:
             для https://qqq.com/somehere/heretext/123</a
           >
         </li>
         <li>
-          <a href="/"> сокращенную на главную</a>
+          <a tabindex="-1" href="/"> сокращенную на главную</a>
         </li>
         <li>
-          <a href="somehere/news">
+          <a tabindex="-1" href="somehere/news">
             сокращенную ссылку на внутреннюю (Например: для
             https://qqq.com/somehere/news)</a
           >
         </li>
       </ol>
     </div>
-    <h2>Таблица:</h2>
+    <h2 tabindex="6">Таблица:</h2>
     <table>
       <tbody>
         <tr>
@@ -224,18 +241,19 @@
         </tr>
       </tbody>
     </table>
-    <h2>Формы:</h2>
+    <h2 tabindex="7">Формы:</h2>
     <form action="/" method="POST">
       <label>
         Имя:
         <br />
-        <input required name="name" placeholder="Ваше имя" />
+        <input required name="name" tabindex="8" placeholder="Ваше имя" />
       </label>
       <br />
       <label>
         e-mail:
         <br />
         <input
+          tabindex="9"
           required
           name="mail"
           type="email"
@@ -246,44 +264,76 @@
       <label>
         Дата рождения:
         <br />
-        <input name="field-date" value="2019-08-13" type="date" />
+        <input tabindex="10" name="field-date" value="2019-08-13" type="date" />
       </label>
       <br />
       <label>
         Ваш пол:
         <br />
-        <input type="radio" name="radio-group-1" value="Значение1" checked />
+        <input
+          tabindex="11"
+          type="radio"
+          name="radio-group-1"
+          value="Значение1"
+          checked
+        />
         Мужской
       </label>
       <label>
-        <input type="radio" name="radio-group-1" value="Значение2" />
+        <input
+          tabindex="12"
+          type="radio"
+          name="radio-group-1"
+          value="Значение2"
+        />
         Женский
       </label>
       <br />
       <label>
         Количество конечностей:
         <br />
-        <input type="radio" name="radio-group-2" value="Значение1" checked />
+        <input
+          tabindex="13"
+          type="radio"
+          name="radio-group-2"
+          value="Значение1"
+          checked
+        />
         1
       </label>
       <br />
       <label>
-        <input type="radio" name="radio-group-2" value="Значение1" />
+        <input
+          tabindex="14"
+          type="radio"
+          name="radio-group-2"
+          value="Значение1"
+        />
         2
       </label>
       <br />
       <label>
-        <input type="radio" name="radio-group-2" value="Значение1" />
+        <input
+          tabindex="15"
+          type="radio"
+          name="radio-group-2"
+          value="Значение1"
+        />
         3
       </label>
       <br />
       <label>
-        <input type="radio" name="radio-group-2" value="Значение1" />
+        <input
+          tabindex="16"
+          type="radio"
+          name="radio-group-2"
+          value="Значение1"
+        />
         4
       </label>
       <br />
       <label>
-        <select id="skills" name="power" multiple="multiple">
+        <select tabindex="17" id="skills" name="power" multiple="multiple">
           <option value="Значение1" selected>Бессмертие</option>
           <option value="Значение2">Прохождение сквозь стены</option>
           <option value="Значение3">Левитация</option>
@@ -293,15 +343,20 @@
       <label id="some">
         Биография:
         <br />
-        <textarea maxlength="250" name="bio" placeholder="Text here"></textarea>
+        <textarea
+          tabindex="18"
+          maxlength="250"
+          name="bio"
+          placeholder="Text here"
+        ></textarea>
       </label>
       <br />
       <label>
-        <input type="checkbox" name="check-1" checked />
+        <input tabindex="19" type="checkbox" name="check-1" checked />
         с контрактом ознакомлен (а)
       </label>
       <br />
-      <input type="submit" value="Отправить" />
+      <input tabindex="20" type="submit" value="Отправить" />
     </form>
     <footer>(с) Сезень Егор 2022</footer>
   </body>
