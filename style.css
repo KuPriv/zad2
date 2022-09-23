@@ -34,10 +34,6 @@ h2 {
   margin-right: 840px;
 }
 
-.about_sil {
-  width: 600px;
-}
-
 .ssilki {
   font-size: 17px;
   font-style: italic;
@@ -49,10 +45,6 @@ h2 {
   border: 5px solid tomato;
   overflow-y: scroll;
   height: 400px;
-}
-
-.ssilki::-webkit-scrollbar {
-  width: 0px;
 }
 
 a {
@@ -183,11 +175,13 @@ textarea {
   padding: 2px;
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar,
+.ssilki::-webkit-scrollbar {
   width: 12px;
 }
 
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track,
+.ssilki::-webkit-scrollbar {
   -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
   background-color: #f9f9fd;
   border-radius: 10px;
@@ -196,4 +190,18 @@ textarea {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+
+.ssilki::-webkit-scrollbar-thumb {
+  background-color: #f2bf93;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.25) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0.25) 75%,
+    transparent 75%,
+    transparent
+  );
 }
